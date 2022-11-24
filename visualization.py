@@ -34,3 +34,10 @@ fig.show()
 # dot_data = export_graphviz(clf, filled=True, rounded=True, out_file=None) # No Windows existe problema no graphiz
 # graph = graphviz.Source(dot_data, format="png")
 # graph.save('tree.png')
+
+# python3 ./Users/fhod/PycharmProjects/Trabalho_pcc170_parametros/acviz-master/acviz.py --iracelog /Users/fhod/PycharmProjects/Trabalho_pcc170_parametros/Teste_1/irace_1/irace.Rdata
+os.system(f"{cwd}/acviz-master/acviz.py --iracelog {cwd}/Teste_1/irace_1/irace.Rdata")
+
+os.system(f"{cwd}/acviz-master/acviz.py --iracelog {cwd}/Teste_2/irace_1/irace.Rdata")
+# python3 ./acviz-master/acviz.py --iracelog /Users/fhod/PycharmProjects/Trabalho_pcc170_parametros/Teste_1/irace_1/irace.Rdata
+# python3 ./acviz-master/acviz.py --iracelog /Users/fhod/PycharmProjects/Trabalho_pcc170_parametros/Teste_2/irace_1/irace.Rdata
