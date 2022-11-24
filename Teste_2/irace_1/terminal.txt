@@ -1,0 +1,32 @@
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          1|         55|         42|    -87.60000000|         55|02:49:59|   NA|  NA|    NA|
+|x|          2|         55|         40|    -86.50000000|        110|02:44:48|+0.19|0.60|0.8076|
+|x|          3|         55|         26|    -86.00000000|        165|02:48:38|+0.10|0.40|0.8493| 
+|x|          4|         55|          4|    -85.70000000|        220|02:46:40|+0.07|0.31|0.8908| 
+|-|          5|         38|         48|    -85.90000000|        275|02:48:21|-0.07|0.15|1.0366|
+|=|          6|         38|         40|    -85.65000000|        313|02:03:27|-0.03|0.14|1.0088| 
+									
+Best-so-far configuration:          40    mean value:     -85.65000000                          
+Description of the best-so-far configuration:                                                  
+.ID. population crossover mutation .PARENT.                                                    
+40   40        120      0.19     0.78       NA                                                    
+# 2022-11-17 06:25:39 -03: Elite configurations (first number is the configuration ID; listed from best to worst according 
+to the sum of ranks):                                                                                                     
+population crossover mutation                                                                                         
+40        120      0.19     0.78                                                                                        
+4         178      0.85     0.29                                                                                         
+48        232      0.55     0.85                                                                                         
+# 2022-11-17 06:25:39 -03: Iteration 2 of 3                                                                              
+# experimentsUsedSoFar: 313                                                                                             
+# remainingBudget: 687                                                                                                   
+# currentBudget: 343                                                                                                     
+# nbConfigurations: 51                                                                                                   
+# Markers:                                                                                                                    
+x No test is performed.                                                                                                  
+c Configurations are discarded only due to capping.                                                                      
+- The test is performed and some configurations are discarded.                                                          
+ = The test is performed but no configuration is discarded.                                                               
+! The test is performed and configurations could be discarded but elite configurations are preserved.                    
+. All alive configurations are elite and nothing is discarded 

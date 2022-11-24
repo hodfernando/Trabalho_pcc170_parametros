@@ -1,0 +1,41 @@
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          8|         44|         52|   -87.90000000|         44|02:12:43|   NA|  NA|    NA|
+|x|          7|         44|         52|   -87.65000000|         85|02:10:36|-0.01|0.50|1.0119|
+|x|          3|         44|         52|   -87.00000000|        126|02:03:45|+0.02|0.34|0.9847|
+|x|          6|         44|         52|   -86.80000000|        167|02:09:31|+0.02|0.27|0.9725|
+|=|          1|         44|         52|   -86.48000000|        208|02:08:59|+0.02|0.21|0.9713|
+|=|          4|         44|        135|   -86.33333333|        249|02:22:16|+0.03|0.19|0.9426|
+|=|          5|         44|         83|   -86.40000000|        290|02:49:31|+0.04|0.18|0.9390|
+|=|          2|         44|         83|   -86.26250000|        331|02:08:53|+0.05|0.17|0.9337|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          83    mean value:    -86.26250000
+Description of the best-so-far configuration:
+   .ID. population crossover mutation .PARENT.
+83   83        278      0.93     0.12       52
+
+# 2022-11-12 23:02:05 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    population crossover mutation
+83         278      0.93     0.12
+52         264      0.98     0.07
+143        292      0.80     0.13
+# 2022-11-12 23:02:05 -03: Stopped because there is not enough budget left to race more than the minimum (3)
+# You may either increase the budget or set 'minNbSurvival' to a lower value
+# Iteration: 4
+# nbIterations: 4
+# experimentsUsedSoFar: 993
+# timeUsed: 0
+# remainingBudget: 7
+# currentBudget: 7
+# number of elites: 3
+# nbConfigurations: 3
+# Best configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    population crossover mutation
+83         278      0.93     0.12
+52         264      0.98     0.07
+143        292      0.80     0.13
+# Best configurations as commandlines (first number is the configuration ID; same order as above):
+83   --pop=278 --cros=0.93 --mut=0.12
+52   --pop=264 --cros=0.98 --mut=0.07
+143  --pop=292 --cros=0.8 --mut=0.13
