@@ -1,6 +1,6 @@
-40
-.\main.py --pop=120 --cros=0.19 --mut=0.78 --datfile "iraceTest_2_bkv_1.Rdata"
-4
-.\main.py --pop=178 --cros=0.85 --mut=0.29 --datfile "iraceTest_2_bkv_2.Rdata"
-48
-.\main.py --pop=232 --cros=0.55 --mut=0.85 --datfile "iraceTest_2_bkv_3.Rdata"
+119
+.\main.py --pop=202 --cros=0.68 --mut=0.31 --datfile "iraceTest_2_bkv_1.Rdata"
+144
+.\main.py --pop=262 --cros=0.94 --mut=0.11 --datfile "iraceTest_2_bkv_2.Rdata"
+108
+.\main.py --pop=196 --cros=0.86 --mut=0.27 --datfile "iraceTest_2_bkv_3.Rdata"

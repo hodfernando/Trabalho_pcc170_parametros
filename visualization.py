@@ -41,3 +41,4 @@ fig.show()
 # Caso não funcione
 # python3 ./acviz-master/acviz.py --iracelog /Users/fhod/PycharmProjects/Trabalho_pcc170_parametros/Teste_1/irace_1/irace.Rdata
 # python3 ./acviz-master/acviz.py --iracelog /Users/fhod/PycharmProjects/Trabalho_pcc170_parametros/Teste_2/irace_1/irace.Rdata
+# python3 ./acviz-master/acviz.py --iracelog /Users/fhod/PycharmProjects/Trabalho_pcc170_parametros/Teste_mac/irace_1/irace.Rdata

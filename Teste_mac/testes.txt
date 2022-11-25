@@ -1,0 +1,6 @@
+64
+.\main.py --pop=256 --cros=0.84 --mut=0.2 --datfile "iraceTest_mac_bkv_1.Rdata"
+89
+.\main.py --pop=234 --cros=0.83 --mut=0.25 --datfile "iraceTest_mac_bkv_2.Rdata"
+72
+.\main.py --pop=264 --cros=0.84 --mut=0.31 --datfile "iraceTest_mac_bkv_3.Rdata"
