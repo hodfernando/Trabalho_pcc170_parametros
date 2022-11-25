@@ -14,15 +14,17 @@ from scipy.sparse import csr_matrix
 from sklearn.datasets import load_svmlight_file
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
+import os
 
 __author__ = "Jackson Antonio do Prado Lima"
 __email__ = "jacksonpradolima@gmail.com"
 __license__ = "GPL"
 __version__ = "1.0"
 
+cwd = os.getcwd()
 # Split my data in 3 set with same size: Train, Test, and Validation.
 # Train and Validation are used in the fitness function, after all, the Test dataset is used to evaluate the best individual
-features, labels = load_svmlight_file("../data/data")
+features, labels = load_svmlight_file(cwd+"/data/data")
 
 x, X_test, y, y_test = train_test_split(features, labels, test_size=0.3333, stratify=labels)
 X_train, X_cv, y_train, y_cv = train_test_split(x, y, test_size=0.5, train_size=0.5, stratify=y)
@@ -134,7 +136,7 @@ def main(POP, CXPB, MUTPB, DATFILE):
 
     # Process Pool of 4 workers
     #pool = multiprocessing.Pool(processes=4)
-    pool = multiprocessing.Pool(processes=2)
+    pool = multiprocessing.Pool(processes=8)
     toolbox.register("map", pool.map)
 
     ## population size
